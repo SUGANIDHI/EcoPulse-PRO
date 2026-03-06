@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+venv/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# Data (Ignore the original massive CSV to stay within GitHub limits)
+World Energy Consumption.csv
+*.log
+
+# Keep the Intelligence Matrix as it's needed for the app
+!Energy_Intelligence_Matrix.csv
